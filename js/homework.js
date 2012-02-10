@@ -7,7 +7,7 @@ $(document).ready(function () {
 	$('.tab1').on('click', function () {
 		$('.nav li').css("background-color", "#3399CC");
 		$('.tab1').css("background-color", "#66FFFF");
-		$('.skylanders img').fadeOut(500, function() {
+		$('.skylanders img:not(.zap)').fadeOut(500, function() {
 			$('.skylanders .zap').fadeIn();
 		});
 	});
@@ -15,7 +15,7 @@ $(document).ready(function () {
 	$('.tab2').on('click', function () {
 		$('.nav li').css("background-color", "#3399CC");
 		$('.tab2').css("background-color", "#66FFFF");
-		$('.skylanders img').fadeOut(500, function() {
+		$('.skylanders img:not(.hex)').fadeOut(500, function() {
 			$('.skylanders .hex').fadeIn();
 		});
 	});
@@ -23,7 +23,7 @@ $(document).ready(function () {
 	$('.tab3').on('click', function () {
 		$('.nav li').css("background-color", "#3399CC");
 		$('.tab3').css("background-color", "#66FFFF");
-		$('.skylanders img').fadeOut(500, function() {
+		$('.skylanders img:not(.whirlwind)').fadeOut(500, function() {
 			$('.skylanders .whirlwind').fadeIn();
 		});
 	});
@@ -31,7 +31,7 @@ $(document).ready(function () {
 	$('.tab4').on('click', function () {
 		$('.nav li').css("background-color", "#3399CC");
 		$('.tab4').css("background-color", "#66FFFF");
-		$('.skylanders img').fadeOut(500, function() {
+		$('.skylanders img:not(.sunburn)').fadeOut(500, function() {
 			$('.skylanders .sunburn').fadeIn();
 		});
 	});
