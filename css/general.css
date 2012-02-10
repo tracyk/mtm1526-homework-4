@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	padding:0;
+	margin:10px;
+	background-color:#CCC;
+}
+
+h2{
+	text-align:center;
+	font-size:25px;
+	text-decoration:underline;
+}
+
+.nav {
+	maring:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+	display:inline;
+	color:#fff;
+	
+}
+
+.nav li {
+	float: left;
+	position: relative;
+	width: 380px;
+	height:50px;
+	background-color:#3399CC;
+	
+	border-left:1px solid #000;
+    border-right:1px solid #00ccff;
+    border-top:1px solid #000;
+    border-bottom:1px solid #00ccff;
+	
+	text-align:center;
+	font-size:20px;
+	
+}
+
+.nav li a {
+	z-index:20;
+	display:block;
+	position:relative;
+}
+
+
+.zap {
+	margin-top:80px;
+	margin-left:500px;
+	position:absolute;
+	z-index:10;
+
+}
+
+.hex {
+	margin-top:80px;
+	margin-left:500px;
+	position:absolute;
+	z-index:10;
+}
+
+.whirlwind {
+	margin-top:80px;
+	margin-left:500px;
+	position:absolute;
+	z-index:10;
+}
+
+.sunburn {
+	margin-top:80px;
+	margin-left:500px;
+	position:absolute;
+	z-index:10;
+}
+
+
